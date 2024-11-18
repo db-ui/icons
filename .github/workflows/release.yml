@@ -23,13 +23,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Setup Node.js 22.x
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-
-      - name: install pnpm
-        run: npm i pnpm@latest -g
+          cache: 'pnpm'
 
       - name: setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
