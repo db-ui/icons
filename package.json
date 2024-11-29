@@ -24,5 +24,13 @@
     "@types/node": "^22.10.0",
     "npm-run-all2": "^7.0.1",
     "tsx": "^4.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/db-ui/icons"
+  },
+  "homepage": "https://db-ui.github.io/icons/",
+  "bugs": {
+    "url": "https://github.com/db-ui/icons/issues"
   }
 }
