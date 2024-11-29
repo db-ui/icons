@@ -1,3 +1,0 @@
-import { OptionsType } from "../types";
-declare const gatherIcons: (temporaryDirectory: string, values: OptionsType) => string[] | undefined;
-export default gatherIcons;
