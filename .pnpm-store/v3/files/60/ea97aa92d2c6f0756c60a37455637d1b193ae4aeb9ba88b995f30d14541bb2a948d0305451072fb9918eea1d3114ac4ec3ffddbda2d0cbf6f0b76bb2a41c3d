@@ -1,0 +1,3 @@
+import { OptionsType } from "../types.js";
+declare const svgToFont: (temporaryDirectory: string, dist: string, options: OptionsType) => Promise<true | import("svgtofont").InfoData>;
+export default svgToFont;
