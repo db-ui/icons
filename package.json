@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "changeset": "changeset",
     "build": "pnpm -r run build",
-    "ci:publish": "pnpm publish --recursive --dry-run --no-git-checks"
+    "ci:publish": "pnpm publish --recursive --no-git-checks"
   },
   "keywords": [],
   "author": {

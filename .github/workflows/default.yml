@@ -2,6 +2,7 @@
 name: Release
 
 on:
+  pull_request:
   push:
     branches:
       - main
@@ -10,40 +11,41 @@ env:
   CI: true
   PNPM_CACHE_FOLDER: .pnpm-store
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
-  release:
+  default:
     timeout-minutes: 15
-    name: Release
+    name: Default Job
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repo
+      - name: ⏬ Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Install pnpm
+      - name: ⏬ Install pnpm
         uses: pnpm/action-setup@v4
         with:
           run_install: false
 
-      - name: Setup Node.js 22.x
+      - name: 🆙 Setup Node.js 22.x
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          cache: 'pnpm'
+          cache: $PNPM_CACHE_FOLDER
 
-      - name: setup pnpm config
+      - name: 🆙 setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
-      - name: Install dependencies
+      - name: ⏬ Install dependencies
         run: pnpm install
 
-      - name: Build all
+      - name: 🔨 Build all
         run: pnpm install
 
       - name: Create Release Pull Request or Publish to npm
+        if: ${{ github.event.pull_request == null }} # only on main
         id: changesets
         uses: changesets/action@v1
         with:
