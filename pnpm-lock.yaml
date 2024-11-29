@@ -32,7 +32,7 @@ importers:
 
   packages/core:
     devDependencies:
-      shared:
+      '@db-ux/icons-shared':
         specifier: workspace:*
         version: link:../_shared
 
