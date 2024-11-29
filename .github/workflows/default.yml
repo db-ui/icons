@@ -20,6 +20,9 @@ jobs:
     timeout-minutes: 15
     name: Default Job
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
     steps:
       - name: ⏬ Checkout repo
         uses: actions/checkout@v4
