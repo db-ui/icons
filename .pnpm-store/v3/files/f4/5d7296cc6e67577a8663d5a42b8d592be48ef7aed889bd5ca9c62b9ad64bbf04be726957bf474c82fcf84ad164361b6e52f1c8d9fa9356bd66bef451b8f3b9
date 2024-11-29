@@ -1,0 +1,57 @@
+{
+  "name": "@db-ui/gif",
+  "version": "0.0.11",
+  "description": "'gif' or 'generate icon fonts' uses svgs to generate woff2 files",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/db-ui/gif"
+  },
+  "license": "Apache-2.0",
+  "bin": {
+    "@db-ui/gif": "dist/index.mjs"
+  },
+  "main": "dist/index.mjs",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "npm-run-all -p build:*",
+    "build:01_icon_fonts_common": "esbuild src/generate-icon-fonts/cli.ts --bundle --outfile=dist/index.mjs --platform=node --packages=external --format=esm",
+    "build:02_icon_fonts_styles": "cpr src/generate-icon-fonts/styles dist/styles -o",
+    "build:03_icon_fonts_templates": "cpr src/generate-icon-fonts/templates dist/templates -o",
+    "build:04_rest": "tsc",
+    "lint": "eslint src --ext ts",
+    "prepare": "husky",
+    "test": "vitest run --no-file-parallelism"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^11.0.0",
+    "oslllo-svg-fixer": "^5.0.0",
+    "svgtofont": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "cpr": "3.0.1",
+    "esbuild-runner": "^2.2.2",
+    "eslint": "^8.57.0",
+    "husky": "^9.0.11",
+    "npm-run-all": "4.1.5",
+    "prettier": "^3.0.3",
+    "typescript": "^5.3.2",
+    "vite": "^6.0.1",
+    "vitest": "^2.0.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "overrides": {
+    "cross-spawn": "~7.0.5"
+  }
+}
