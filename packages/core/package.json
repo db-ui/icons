@@ -1,5 +1,6 @@
 {
   "name": "@db-ux/core-icons",
+  "private": false,
   "version": "0.0.0",
   "description": "",
   "license": "Apache-2.0",
@@ -15,5 +16,9 @@
   },
   "devDependencies": {
     "@db-ux/icons-shared": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
