@@ -1,5 +1,5 @@
 import { dist } from "./data";
-import { generateIconPalette } from "@db-ux/icons-shared/src/generate-icon-palette";
+import { generateIconPalette } from "@db-ux/icons-shared";
 
 const path = "assets";
 

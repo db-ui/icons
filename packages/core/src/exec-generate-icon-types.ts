@@ -1,5 +1,5 @@
 import { dist, fontName } from "./data";
-import { generateIconTypes } from "@db-ux/icons-shared/src/generate-icon-types";
+import { generateIconTypes } from "@db-ux/icons-shared";
 
 generateIconTypes({
   fontJsonPath: `${dist}/fonts/default/${fontName}.json`,
