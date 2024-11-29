@@ -7,5 +7,5 @@
   "access": "restricted",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@db-ux/icons", "@db-ux/icons-shared"]
+  "ignore": []
 }
