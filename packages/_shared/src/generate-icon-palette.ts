@@ -12,7 +12,7 @@ export type GenerateIconPaletteProps = {
   sizeMapping?: Record<string, string[]>;
 };
 
-const createDir = (dir: string, dry: boolean) => {
+const createDir = (dir: string, dry?: boolean) => {
   if (!dry) {
     if (!existsSync(dir)) {
       mkdirSync(dir, { recursive: true });
@@ -68,7 +68,7 @@ export const generateIconPalette = ({
       const iconSize = splitPath.at(-1);
       if (sizeMapping) {
         for (const [size, mapping] of Object.entries(sizeMapping)) {
-          if (iconSize.includes(size)) {
+          if (iconSize?.includes(size)) {
             for (const copySize of mapping) {
               copyFileSync(path, `${createdPath.replace(size, copySize)}`);
             }

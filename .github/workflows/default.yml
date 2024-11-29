@@ -35,7 +35,7 @@ jobs:
       - name: 🔨 Build all
         run: |
           pnpm install
-          ls packages/core/node_modules
+          ls packages/core/node_modules/@db-ux
           pnpm build
 
       - name: 🆙 Setup .npmrc
