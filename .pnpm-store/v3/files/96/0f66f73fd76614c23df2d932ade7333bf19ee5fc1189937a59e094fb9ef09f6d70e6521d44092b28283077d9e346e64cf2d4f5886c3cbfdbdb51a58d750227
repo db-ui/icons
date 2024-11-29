@@ -1,5 +1,0 @@
-import { OptionsType, ProgrammOptionsType } from "./types";
-declare const startProgram: (name: string, description: string, options: ProgrammOptionsType[], action: (_: string, options: {
-    _optionValues: OptionsType;
-}) => void) => void;
-export default startProgram;
