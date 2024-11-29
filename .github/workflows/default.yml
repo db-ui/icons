@@ -36,7 +36,7 @@ jobs:
         run: pnpm install
 
       - name: 🔨 Build all
-        run: pnpm install
+        run: pnpm build
 
       - name: 🆙 Setup .npmrc
         run: |
