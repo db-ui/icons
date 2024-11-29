@@ -32,11 +32,11 @@ jobs:
       - name: 🆙 Setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
-      - name: ⏬ Install dependencies
-        run: pnpm install
-
       - name: 🔨 Build all
-        run: pnpm build
+        run: |
+          pnpm install
+          ls packages/core/node_modules
+          pnpm build
 
       - name: 🆙 Setup .npmrc
         run: |

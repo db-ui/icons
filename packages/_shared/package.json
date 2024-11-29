@@ -7,9 +7,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "test": "tsx src/test.ts"
-  },
   "devDependencies": {
     "glob": "^11.0.0"
   }

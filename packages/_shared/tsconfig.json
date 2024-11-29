@@ -1,20 +1,14 @@
 {
   "include": ["."],
-  "exclude": ["lib.dom.d.ts"],
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": [
-      "ESNext",
-      "dom"
-    ],
-    "rootDir": ".",
-    "isolatedModules": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "experimentalDecorators": true,
-    "esModuleInterop": true,
+    "strict": true,
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "target": "ESNext",
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
   }
 }
