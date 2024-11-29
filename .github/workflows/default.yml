@@ -29,11 +29,6 @@ jobs:
         with:
           run_install: false
 
-      - name: 🆙 Setup npmrc
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
-          echo "@db-ux:registry=https://registry.npmjs.org/" > .npmrc
-
       - name: 🆙 Setup pnpm config
         run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
@@ -42,6 +37,15 @@ jobs:
 
       - name: 🔨 Build all
         run: pnpm install
+
+      - name: 🆙 Setup .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            @db-ux:registry=https://registry.npmjs.org/
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: ⬆️ Create Release Pull Request or Publish to npm
         if: ${{ github.event.pull_request == null }} # only on main
