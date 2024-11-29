@@ -9,7 +9,6 @@ on:
 
 env:
   CI: true
-  PNPM_CACHE_FOLDER: .pnpm-store
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -33,10 +32,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          cache: $PNPM_CACHE_FOLDER
-
-      - name: 🆙 setup pnpm config
-        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+          cache: 'pnpm'
 
       - name: ⏬ Install dependencies
         run: pnpm install
