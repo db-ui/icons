@@ -27,8 +27,26 @@ export const generateIconTypes = ({
     const allIconsFile = `${generatedDisclaimer}export const ALL_ICONS: string[] = ${JSON.stringify(
       icons
     )};`;
-    writeFileSync(`${outDir}/icon-types.ts`, iconTypes);
-    writeFileSync(`${outDir}/all-icons.ts`, allIconsFile);
+
+    const filesToWrite = [
+      {
+        name: "icon-types",
+        content: iconTypes,
+      },
+      {
+        name: "all-icons",
+        content: allIconsFile,
+      },
+    ];
+
+    for (const { name, content } of filesToWrite) {
+      writeFileSync(`${outDir}/${name}.ts`, content);
+    }
+
+    writeFileSync(
+      `${outDir}/index.ts`,
+      filesToWrite.map(({ name }) => `export * from "./${name}";`).join("\n")
+    );
   } catch (e) {
     console.error(e);
   }
