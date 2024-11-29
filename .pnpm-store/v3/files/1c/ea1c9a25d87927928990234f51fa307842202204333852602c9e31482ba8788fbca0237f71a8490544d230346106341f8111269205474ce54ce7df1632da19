@@ -1,0 +1,2 @@
+import { ProgrammOptionsType } from "../types";
+export declare const gifOptions: ProgrammOptionsType[];

@@ -1,0 +1,2 @@
+declare const cleanIcons: (src: string, ignoreGlobs?: string[], traceResolution?: string, debug?: boolean) => Promise<void>;
+export default cleanIcons;

@@ -1,0 +1,3 @@
+import { OptionsType } from "../types";
+declare const generateIconFonts: (values: OptionsType) => Promise<unknown>;
+export default generateIconFonts;
