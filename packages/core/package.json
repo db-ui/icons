@@ -1,0 +1,19 @@
+{
+  "name": "@db-ux/core-icons",
+  "version": "0.0.0",
+  "description": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm-run-all generate:*",
+    "generate:01_icon-palette": "tsx src/exec-generate-icon-palette.ts",
+    "generate:02_icon-fonts": "tsx src/exec-generate-icon-font.ts",
+    "generate:03_icon-types": "tsx src/exec-generate-icon-types.ts"
+  },
+  "devDependencies": {
+    "shared": "workspace:*"
+  }
+}

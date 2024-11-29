@@ -1,0 +1,16 @@
+{
+  "name": "shared",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "tsx src/test.ts"
+  },
+  "devDependencies": {
+    "glob": "^11.0.0"
+  }
+}
