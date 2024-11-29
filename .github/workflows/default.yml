@@ -9,6 +9,7 @@ on:
 
 env:
   CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -28,20 +29,17 @@ jobs:
         with:
           run_install: false
 
-      - name: 🆙 Setup Node.js 22.x
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22.x
-          cache: 'pnpm'
+      - name: 🆙 Setup npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+
+      - name: 🆙 Setup pnpm config
+        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
       - name: ⏬ Install dependencies
         run: pnpm install
 
       - name: 🔨 Build all
         run: pnpm install
-
-      - name: 🆙 Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
 
       - name: ⬆️ Create Release Pull Request or Publish to npm
         if: ${{ github.event.pull_request == null }} # only on main
