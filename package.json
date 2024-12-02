@@ -23,7 +23,8 @@
     "@db-ui/gif": "^0.0.11",
     "@types/node": "^22.10.0",
     "npm-run-all2": "^7.0.1",
-    "tsx": "^4.19.2"
+    "tsx": "^4.19.2",
+    "adm-zip": "^0.5.16"
   },
   "repository": {
     "type": "git",

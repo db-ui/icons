@@ -1,6 +1,8 @@
 # @db-ux/core-icons
 
-This library contains ``.svg`` and `.woff2` files for all core icons of DB UX.
+This icon package contains all functional  icons that are provided in the DB UX Design System. The icons can also be found individually in the icon libraries of the marketing portal:
+
+-   [Functional Icons](https://marketingportal.extranet.deutschebahn.com/marketingportal/Marke-und-Design/Basiselemente/Icons/Icon-Bibliotheken/Bibliothek-Funktionale-Icons)
 
 ## Install
 

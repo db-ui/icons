@@ -9,7 +9,6 @@ on:
 
 env:
   CI: true
-  PNPM_CACHE_FOLDER: .pnpm-store
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -27,19 +26,19 @@ jobs:
       - name: ⏬ Checkout repo
         uses: actions/checkout@v4
 
-      - name: ⏬ Install pnpm
+      - name: 🆙 Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           run_install: false
 
       - name: 🆙 Setup pnpm config
-        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+        run: pnpm config set store-dir .pnpm-store
+
+      - name: ⏬ Install pnpm
+        run: pnpm install
 
       - name: 🔨 Build all
-        run: |
-          pnpm install
-          ls packages/core/node_modules/@db-ux
-          pnpm build
+        run: pnpm build
 
       - name: 🆙 Setup .npmrc
         run: |

@@ -1,6 +1,8 @@
 # @db-ux/illustrative-icons
 
-This library contains `.svg` illustrative icons of DB UX.
+This icon package contains all illustrative icons that are provided in the DB UX Design System. The icons can also be found individually in the icon libraries of the marketing portal:
+
+-   [Illustrative Icons](https://marketingportal.extranet.deutschebahn.com/marketingportal/Marke-und-Design/Basiselemente/Icons/Icon-Bibliotheken/Bibliothek-Illustrative-Icons)
 
 ## Install
 
@@ -22,6 +24,21 @@ npm i @db-ux/illustrative-icons
 - Press "Download" for a download or "Raw" for the plain `svg`
 
 ![download-from-github](https://raw.githubusercontent.com/db-ui/icons/refs/heads/main/packages/illustrative/docs/download-from-github.png)
+
+## Dev related: How to provide these icons
+
+### Modifications for SVGs
+
+We process the following changes:
+
+-   Minifications with [`ImageOptim`](https://imageoptim.com/mac)
+-   Adding some contents within the SVGs (these assets might get exported correctly in the future)
+    -   CSS variables, add `style`-attribute next to the existing `fill`-attribute:
+        -   `fill="#282D37" style="var(--db-icon-color, currentColor)"`
+        -   `fill="#55b9e6" style="var(--db-icon-color, #55b9e6)"`
+        -   `fill="#EC0016" style="var(--db-icon-pulse-color, #EC0016)"`
+        -   `fill="#78be14" style="var(--db-icon-pulse-color, #78be14)"`
+    -   `id`-Attribute (generic `icon` id within all SVG files)
 
 ## Deutsche Bahn brand
 
