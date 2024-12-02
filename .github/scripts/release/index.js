@@ -10,17 +10,8 @@ const release = async ({ github, context, workspace, iconReleaseId }) => {
 
   // 3. Upload latest icon assets
   const iconsName = "icons.zip";
-  const iconsPath = `${workspace}/packages/foundations/assets`;
+  const iconsPath = `${workspace}/packages/core/dist/assets`;
   await zipFolder(iconsName, iconsPath, `${iconsPath}/icons`);
-
-  // 3.1 Upload to current release
-  await uploadAsset({
-    github,
-    context,
-    release_id,
-    assetName: iconsName,
-    assetPath: `${iconsPath}/${iconsName}`,
-  });
 
   // 3.2 Upload to iconRelease -> will overwrite "latest" icons
   await uploadAsset({
