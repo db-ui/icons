@@ -1,6 +1,6 @@
 # @db-ux/pv-icons
 
-This icon package contains all functional pv (Personenverkehr) icons that are provided in the DB.
+This icon package contains all functional PV (Personenverkehr) icons that are provided in the DB.
 
 ## Install
 
