@@ -41,6 +41,12 @@ importers:
 
   packages/illustrative: {}
 
+  packages/pv:
+    devDependencies:
+      '@db-ux/icons-shared':
+        specifier: workspace:*
+        version: link:../_shared
+
 packages:
 
   '@babel/runtime@7.26.0':

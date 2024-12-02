@@ -1,0 +1,29 @@
+{
+  "name": "@db-ux/pv-icons",
+  "private": false,
+  "version": "0.0.0",
+  "description": "",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm-run-all generate:*",
+    "generate:01_icon-palette": "tsx src/exec-generate-icon-palette.ts",
+    "generate:02_icon-fonts": "tsx src/exec-generate-icon-font.ts",
+    "generate:03_icon-types": "tsx src/exec-generate-icon-types.ts"
+  },
+  "devDependencies": {
+    "@db-ux/icons-shared": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/db-ui/icons"
+  }
+}
