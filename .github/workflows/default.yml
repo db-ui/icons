@@ -61,7 +61,7 @@ jobs:
           publish: pnpm ci:publish
         env:
           NPM_CONFIG_PROVENANCE: true
-          GITHUB_TOKEN: ${{ secrets.CHAGESET_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.CHANGESET_TOKEN }}
 
       - name: ⏫ Upload Release Assets
         if: ${{ github.event.pull_request == null && steps.changesets.outputs.published == 'true' }} # only on main when published
