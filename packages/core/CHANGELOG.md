@@ -1,5 +1,11 @@
 # @db-ux/core-icons
 
+## 0.0.4
+
+### Patch Changes
+
+- 9b32508: fix issue with `data-icon-variant` not appliying for every child node
+
 ## 0.0.3
 
 ### Patch Changes
