@@ -1,5 +1,11 @@
 # @db-ux/pv-icons
 
+## 0.0.3
+
+### Patch Changes
+
+- 4b12390: Removed `s-bahn` and `subway` icon, because they are already inside `core-icons`
+
 ## 0.0.2
 
 ### Patch Changes
