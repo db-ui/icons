@@ -16,10 +16,4 @@ jobs:
     uses: ./.github/workflows/99-dependabot-auto-merge.yml
 
   changeset-auto-merge:
-    #uses: ./.github/workflows/99-changeset-auto-merge.yml
-    runs-on: ubuntu-latest
-    steps:
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
+    uses: ./.github/workflows/99-changeset-auto-merge.yml
