@@ -8,12 +8,74 @@ This icon package contains all functional PV (Personenverkehr) icons that are pr
 npm i @db-ux/pv-icons
 ```
 
-## Usage
-
-### NPM
+## Usage plain svg
 
 - You can copy assets from `node_modules/@db-ux/pv-icons/dist/assets`
-- You can use a bundler like `vite` to include it to your `.js`|`.ts`|`.css` files
+
+## Usage with `@db-ui/components`
+
+### Import
+
+There are different ways to include the icons via a font-face. Therefore, you need to import the correct `.css` file. There are multiple files depending on the bundler you use:
+
+- `relative.css`: No bundler
+- `absolute.css`: No bundler
+- `rollup.css`: `vite`, `rollup`
+- `webpack.css`: `webpack`
+
+#### JS/TS
+
+```javascript
+// main.[js|ts]
+import "@db-ux/pv-icons/dist/css/rollup.css";
+```
+
+#### CSS
+
+```css
+/* main.css */
+@import "@db-ux/pv-icons/dist/css/rollup.css";
+```
+
+### Use Font-Family
+
+If you want to use the font family you can do it like this:
+
+#### HTML
+
+```html
+<button class="db-button" data-icon="air_condition" data-icon-variant="db-pv">
+  Test
+</button>
+```
+
+#### Angular
+
+```html
+<db-button icon="air_condition" data-icon-variant="db-pv">Test</db-button>
+```
+
+#### React & Vue
+
+```tsx
+<DBButton icon="air_condition" data-icon-variant="db-pv">Test</DBButton>
+```
+
+You can add additional TypeScript support by including generated types to `tsconfig.json`:
+
+```json
+React:
+{
+  "compilerOptions": ...,
+  "include": [..., "node_modules/@db-ux/pv-icons/dist/types/react.d.ts"],
+}
+
+Vue:
+{
+  "compilerOptions": ...,
+  "include": [..., "node_modules/@db-ux/pv-icons/dist/types/vue.d.ts"],
+}
+```
 
 ## Deutsche Bahn brand
 

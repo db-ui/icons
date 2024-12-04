@@ -1,8 +1,8 @@
 # @db-ux/core-icons
 
-This icon package contains all functional  icons that are provided in the DB UX Design System. The icons can also be found individually in the icon libraries of the marketing portal:
+This icon package contains all functional icons that are provided in the DB UX Design System. The icons can also be found individually in the icon libraries of the marketing portal:
 
--   [Functional Icons](https://marketingportal.extranet.deutschebahn.com/marketingportal/Marke-und-Design/Basiselemente/Icons/Icon-Bibliotheken/Bibliothek-Funktionale-Icons)
+- [Functional Icons](https://marketingportal.extranet.deutschebahn.com/marketingportal/Marke-und-Design/Basiselemente/Icons/Icon-Bibliotheken/Bibliothek-Funktionale-Icons)
 
 ## Install
 
@@ -10,12 +10,42 @@ This icon package contains all functional  icons that are provided in the DB UX 
 npm i @db-ux/core-icons
 ```
 
-## Usage
-
-### NPM
+## Usage plain svg
 
 - You can copy assets from `node_modules/@db-ux/core-icons/dist/assets`
-- You can use a bundler like `vite` to include it to your `.js`|`.ts`|`.css` files
+
+## Usage with `@db-ui/components`
+
+### Import
+
+There are different ways to include the icons via a font-face. Therefore, you need to import the correct `.css` file. There are multiple files depending on the bundler you use:
+
+- `relative.css`: No bundler
+- `absolute.css`: No bundler
+- `rollup.css`: `vite`, `rollup`
+- `webpack.css`: `webpack`
+
+#### JS/TS
+
+```javascript
+// main.[js|ts]
+import "@db-ux/core-icons/dist/css/rollup.css";
+```
+
+#### CSS
+
+```css
+/* main.css */
+@import "@db-ux/core-icons/dist/css/rollup.css";
+```
+
+### Use Font-Family
+
+If you want to use the font family you can do it like this:
+
+```html
+<div data-icon="person" data-icon-variant="db-ux">Test</div>
+```
 
 ## Deutsche Bahn brand
 
