@@ -37,13 +37,13 @@ const getFontFace = (
     result += `
       [data-icon-weight="${size}"],
     [data-icon-weight-before="${size}"] {
-      &::before {
+      ::before {
         --db-icon-font-weight: ${size};
       }
     }
 
     [data-icon-weight-after="${size}"] {
-      &::after {
+      ::after {
         --db-icon-font-weight: ${size};
       }
     }`;
@@ -52,13 +52,13 @@ const getFontFace = (
       result += `  
   [data-icon-variant="${fontName}"],
   [data-icon-variant-before="${fontName}"] {
-    &::before {
+    ::before {
       --db-icon-font-family: "${fontFamily}";
     }
   }
 
   [data-icon-variant-after="${fontName}"] {
-    &::after {
+    ::after {
       --db-icon-font-family: "${fontFamily}";
     }
   }`;
@@ -67,13 +67,13 @@ const getFontFace = (
     result += `  
   [data-icon-variant="${fontFamily}"],
   [data-icon-variant-before="${fontFamily}"] {
-    &::before {
+    ::before {
       --db-icon-font-family: "${fontFamily}";
     }
   }
 
   [data-icon-variant-after="${fontFamily}"] {
-    &::after {
+    ::after {
       --db-icon-font-family: "${fontFamily}";
     }
   }`;
