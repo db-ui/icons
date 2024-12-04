@@ -1,5 +1,11 @@
 # @db-ux/core-icons
 
+## 0.0.3
+
+### Patch Changes
+
+- bdcd9ea: `data-icon-variant` will work for children as well to use it with nested components
+
 ## 0.0.2
 
 ### Patch Changes
