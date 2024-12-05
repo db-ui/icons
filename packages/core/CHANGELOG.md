@@ -1,5 +1,11 @@
 # @db-ux/core-icons
 
+## 0.0.5
+
+### Patch Changes
+
+- dc09400: Add icon descriptions as JSON file for translation purposes
+
 ## 0.0.4
 
 ### Patch Changes
