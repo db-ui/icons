@@ -1,0 +1,620 @@
+{
+  "air-condition": {
+    "en": {
+      "default": ["Air condition"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Klimaanlage"],
+      "contextual": []
+    }
+  },
+  "aisle": {
+    "en": {
+      "default": ["Seat aisle"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Sitzplatz"],
+      "contextual": []
+    }
+  },
+  "aisle-not-available": {
+    "en": {
+      "default": ["Seat aisle not avilable"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Sitzplatz nicht verfügbar"],
+      "contextual": []
+    }
+  },
+  "alternative-connection": {
+    "en": {
+      "default": ["Alternative connection"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Alternative Verbindung"],
+      "contextual": []
+    }
+  },
+  "bahnbonus": {
+    "en": {
+      "default": ["BahnBonus"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["BahnBonus"],
+      "contextual": []
+    }
+  },
+  "bahnbonus-card": {
+    "en": {
+      "default": ["BahnBonus card"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["BahnBonus-Karte"],
+      "contextual": []
+    }
+  },
+  "bahncard": {
+    "en": {
+      "default": ["BahnCard"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["BahnCard"],
+      "contextual": []
+    }
+  },
+  "bahncards": {
+    "en": {
+      "default": ["Multiple BahnCards"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mehrere BahnCards"],
+      "contextual": []
+    }
+  },
+  "bed": {
+    "en": {
+      "default": ["Bed"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bett"],
+      "contextual": []
+    }
+  },
+  "bicycle-reservation-required": {
+    "en": {
+      "default": ["Bicycle reservation required"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fahrradreservierung benötigt"],
+      "contextual": []
+    }
+  },
+  "bicycle-transport-not-available": {
+    "en": {
+      "default": ["Bicycle transport not available"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fahrradmitnahme nicht möglich"],
+      "contextual": []
+    }
+  },
+  "booking": {
+    "en": {
+      "default": ["Book journey"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Reise buchen"],
+      "contextual": []
+    }
+  },
+  "call-a-bike": {
+    "en": {
+      "default": ["Call a Bike"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Call a Bike"],
+      "contextual": []
+    }
+  },
+  "capacity-indicator-booked": {
+    "en": {
+      "default": ["Train is fully booked"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Außergewöhnlich hohe Auslastung erwartet"],
+      "contextual": []
+    }
+  },
+  "capacity-indicator-high": {
+    "en": {
+      "default": ["Train is expected to be crowded"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Hohe Auslastung erwartet"],
+      "contextual": []
+    }
+  },
+  "capacity-indicator-low": {
+    "en": {
+      "default": ["Train is not expected to get crowded"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Geringe Auslastung erwartet"],
+      "contextual": []
+    }
+  },
+  "capacity-indicator-moderate": {
+    "en": {
+      "default": ["Train is expected to get crowded"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mittlere Auslastung erwartet"],
+      "contextual": []
+    }
+  },
+  "car-sharing": {
+    "en": {
+      "default": ["Car sharing"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Car-Sharing-Angebot"],
+      "contextual": []
+    }
+  },
+  "changeover": {
+    "en": {
+      "default": ["Changeover"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Umstieg"],
+      "contextual": []
+    }
+  },
+  "childrens-compartment": {
+    "en": {
+      "default": ["Children's compartment"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Kinderabteil"],
+      "contextual": []
+    }
+  },
+  "coach": {
+    "en": {
+      "default": ["Coach"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Wagen"],
+      "contextual": []
+    }
+  },
+  "coach-sequence": {
+    "en": {
+      "default": ["Coach sequence"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Wagenreihung"],
+      "contextual": []
+    }
+  },
+  "couchette": {
+    "en": {
+      "default": ["Couchette"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Liegeabteil"],
+      "contextual": []
+    }
+  },
+  "electric-locomotive": {
+    "en": {
+      "default": ["Electric locomotive"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Elektrische Lok"],
+      "contextual": []
+    }
+  },
+  "family-compartment": {
+    "en": {
+      "default": ["Parent child compartment"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Familienabteil"],
+      "contextual": []
+    }
+  },
+  "first-class": {
+    "en": {
+      "default": ["First class"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Erste Klasse"],
+      "contextual": []
+    }
+  },
+  "ic-and-ec": {
+    "en": {
+      "default": ["IC/EC", "Intercity/Eurocity train"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["IC/EC", "Intercity/cZug"],
+      "contextual": []
+    }
+  },
+  "ice-side-view": {
+    "en": {
+      "default": ["ICE train side view"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["ICE Zug Seitenansicht"],
+      "contextual": [""]
+    }
+  },
+  "intermediary-stop": {
+    "en": {
+      "default": ["Intermediary stop"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Zwischenhalt"],
+      "contextual": []
+    }
+  },
+  "komfort-check-in": {
+    "en": {
+      "default": ["Comfort check in"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Komfort-Check-In"],
+      "contextual": []
+    }
+  },
+  "komfort-check-in-check": {},
+  "komfort-check-in-circle": {},
+  "local-train": {
+    "en": {
+      "default": ["Local train"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Regio-Zug"],
+      "contextual": []
+    }
+  },
+  "long-distance-bus": {
+    "en": {
+      "default": ["Long distance bus"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fernbus"],
+      "contextual": []
+    }
+  },
+  "luggage-compartment": {
+    "en": {
+      "default": ["Locker"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Schließfach"],
+      "contextual": []
+    }
+  },
+  "luggage-rack": {
+    "en": {
+      "default": ["Luggage rack"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Gepäckablage"],
+      "contextual": []
+    }
+  },
+  "mixed-class": {
+    "en": {
+      "default": ["First and second class"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Erste und zweite Klasse"],
+      "contextual": []
+    }
+  },
+  "my-journey": {
+    "en": {
+      "default": ["My journey"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Meine Reise"],
+      "contextual": []
+    }
+  },
+  "outward-journey": {
+    "en": {
+      "default": ["Ticket Outward journey"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ticket Hinfahrt"],
+      "contextual": []
+    }
+  },
+  "platform": {
+    "en": {
+      "default": ["Platform"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Gleis"],
+      "contextual": []
+    }
+  },
+  "quiet-zone": {
+    "en": {
+      "default": ["Quiet zone"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ruheabteil"],
+      "contextual": []
+    }
+  },
+  "rail-and-fly": {
+    "en": {
+      "default": ["Rail&Fly"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Rail&Fly"],
+      "contextual": []
+    }
+  },
+  "replacement-service": {
+    "en": {
+      "default": ["Replacement service"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Ersatzverkehr (EV)"],
+      "contextual": [""]
+    }
+  },
+  "reservation": {
+    "en": {
+      "default": ["Reservation mandatory"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Reservierungspflichtig"],
+      "contextual": []
+    }
+  },
+  "return-journey": {
+    "en": {
+      "default": ["Ticket return journey"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ticket Rückfahrt"],
+      "contextual": []
+    }
+  },
+  "round-trip": {
+    "en": {
+      "default": ["Round trip"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Hin- und Rückfahrt"],
+      "contextual": []
+    }
+  },
+  "seat-table": {
+    "en": {
+      "default": ["Seat with table"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Tisch am Sitzplatz"],
+      "contextual": []
+    }
+  },
+  "seat-window": {
+    "en": {
+      "default": ["Window seat"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fensterplatz"],
+      "contextual": []
+    }
+  },
+  "second-class": {
+    "en": {
+      "default": ["Second class"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Zweite Klasse"],
+      "contextual": []
+    }
+  },
+  "single-trip": {
+    "en": {
+      "default": ["Single trip"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Einfache Fahrt"],
+      "contextual": []
+    }
+  },
+  "sprinter": {
+    "en": {
+      "default": ["Sprinter"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Sprinter"],
+      "contextual": []
+    }
+  },
+  "standing-room": {
+    "en": {
+      "default": ["Standing room"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Stehplatz"],
+      "contextual": []
+    }
+  },
+  "start": {
+    "en": {
+      "default": ["Start"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Start"],
+      "contextual": []
+    }
+  },
+  "stepless-entry": {
+    "en": {
+      "default": ["Stepless entry"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Stufenloser Einstieg"],
+      "contextual": []
+    }
+  },
+  "ticket-commuter": {
+    "en": {
+      "default": ["Commuter ticket"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Abo-Ticket"],
+      "contextual": []
+    }
+  },
+  "ticket-discount": {
+    "en": {
+      "default": ["Ticket discount"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ticket Rabatt"],
+      "contextual": []
+    }
+  },
+  "ticket-subscription": {
+    "en": {
+      "default": ["Ticket subscription"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Ticket-Abo"],
+      "contextual": [""]
+    }
+  },
+  "time-outward-journey": {
+    "en": {
+      "default": ["Time outward journey"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Dauer Hinfahrt"],
+      "contextual": []
+    }
+  },
+  "time-return-journey": {
+    "en": {
+      "default": ["Time return journey"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Dauer Rückfahrt"],
+      "contextual": [""]
+    }
+  },
+  "timetable": {
+    "en": {
+      "default": ["Timetable"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Abfahrtstafel"],
+      "contextual": []
+    }
+  },
+  "tram": {
+    "en": {
+      "default": ["Tram"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Tram"],
+      "contextual": []
+    }
+  },
+  "traveler-with-reduced-mobility": {
+    "en": {
+      "default": ["Priority seat"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Vorrangplätze für mobilitätseingeschränkte Personen"],
+      "contextual": []
+    }
+  },
+  "vehicle-entry-aid": {
+    "en": {
+      "default": ["Vehicle entry aid"],
+      "contextual": []
+    }
+  },
+  "walking-fast": {
+    "en": {
+      "default": ["Show fastest connection"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Schnellste Verbindung anzeigen"],
+      "contextual": [""]
+    }
+  }
+}
