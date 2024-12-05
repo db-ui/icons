@@ -14,15 +14,24 @@ importers:
       '@db-ui/gif':
         specifier: ^0.0.11
         version: 0.0.11(encoding@0.1.13)
+      '@figma/rest-api-spec':
+        specifier: 0.22.0
+        version: 0.22.0
       '@types/node':
         specifier: ^22.10.0
         version: 22.10.1
       adm-zip:
         specifier: ^0.5.16
         version: 0.5.16
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
       npm-run-all2:
         specifier: ^7.0.1
         version: 7.0.1
+      slugify:
+        specifier: ^1.6.6
+        version: 1.6.6
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -255,6 +264,9 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@figma/rest-api-spec@0.22.0':
+    resolution: {integrity: sha512-8XEdN41ahdUXMTR+E3CMmtXqlJYzuHun4VYUCElrkGsd6g1BFEYTiNCwIHy34Ooct2O8/zwpysnkw52EzVKdtQ==}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -914,6 +926,10 @@ packages:
 
   domutils@3.1.0:
     resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
@@ -1634,6 +1650,10 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
 
+  slugify@1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==}
+    engines: {node: '>=8.0.0'}
+
   smart-buffer@4.2.0:
     resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
     engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
@@ -2155,6 +2175,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.23.1':
     optional: true
+
+  '@figma/rest-api-spec@0.22.0': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -2824,6 +2846,8 @@ snapshots:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
+
+  dotenv@16.4.7: {}
 
   eastasianwidth@0.2.0: {}
 
@@ -3561,6 +3585,8 @@ snapshots:
   signal-exit@4.1.0: {}
 
   slash@3.0.0: {}
+
+  slugify@1.6.6: {}
 
   smart-buffer@4.2.0: {}
 

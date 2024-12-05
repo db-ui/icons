@@ -10,7 +10,8 @@
     "changeset": "changeset",
     "ci:publish": "pnpm publish --recursive --no-git-checks",
     "ci:version": "changeset version",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "scripts:download-figma-descriptions": "tsx packages/scripts/download-figma-descriptions.ts"
   },
   "keywords": [],
   "author": {
@@ -20,10 +21,13 @@
   "license": "Apache-2.0",
   "packageManager": "pnpm@9.13.2+sha512.88c9c3864450350e65a33587ab801acf946d7c814ed1134da4a924f6df5a2120fd36b46aab68f7cd1d413149112d53c7db3a4136624cfd00ff1846a0c6cef48a",
   "devDependencies": {
+    "@figma/rest-api-spec": "0.22.0",
     "@changesets/cli": "^2.27.9",
     "@db-ui/gif": "^0.0.11",
     "@types/node": "^22.10.0",
     "npm-run-all2": "^7.0.1",
+    "dotenv": "^16.4.7",
+    "slugify": "^1.6.6",
     "tsx": "^4.19.2",
     "adm-zip": "^0.5.16"
   },

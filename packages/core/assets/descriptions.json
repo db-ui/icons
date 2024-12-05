@@ -1,0 +1,2121 @@
+{
+  "airplane": {
+    "en": {
+      "default": ["Airplane"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Flugzeug"],
+      "contextual": []
+    }
+  },
+  "alarm-clock": {
+    "en": {
+      "default": ["Alarm clock"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Wecker"],
+      "contextual": []
+    }
+  },
+  "alarm-clock-plus": {
+    "en": {
+      "default": ["Alarm clock with plus"],
+      "contextual": ["Add alarm clock"]
+    },
+    "de": {
+      "default": ["Wecker mit Pluszeichen"],
+      "contextual": ["Wecker hinzufügen"]
+    }
+  },
+  "arrow-down": {
+    "en": {
+      "default": ["Arrow down"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pfeil Richtung unten"],
+      "contextual": []
+    }
+  },
+  "arrow-left": {
+    "en": {
+      "default": ["Arrow left"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pfeil Richtung links"],
+      "contextual": []
+    }
+  },
+  "arrow-right": {
+    "en": {
+      "default": ["Arrow right"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pfeil Richtung rechts"],
+      "contextual": []
+    }
+  },
+  "arrow-up": {
+    "en": {
+      "default": ["Arrow up"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pfeil Richtung oben"],
+      "contextual": []
+    }
+  },
+  "arrow-up-right": {
+    "en": {
+      "default": ["Arrow top right"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pfeil Richtung oben rechts"],
+      "contextual": []
+    }
+  },
+  "arrows-horizontal": {
+    "en": {
+      "default": ["Arrows top and bottom"],
+      "contextual": ["Swap up or down"]
+    },
+    "de": {
+      "default": ["Pfeile Richtung unten und oben"],
+      "contextual": ["Nach oben oder unten tauschen"]
+    }
+  },
+  "arrows-vertical": {
+    "en": {
+      "default": ["Arrows down and up"],
+      "contextual": ["Swap up or down"]
+    },
+    "de": {
+      "default": ["Pfeile nach unten und oben"],
+      "contextual": ["Nach oben oder unten tauschen"]
+    }
+  },
+  "artificial-intelligence": {
+    "en": {
+      "default": ["AI", "artificial intelligence"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["KI", "künstliche Intelligenz"],
+      "contextual": []
+    }
+  },
+  "augmented-reality": {
+    "en": {
+      "default": ["AR", "augmented reality"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["AR", "erweiterte Realität"],
+      "contextual": []
+    }
+  },
+  "bell": {
+    "en": {
+      "default": ["Bell"],
+      "contextual": ["Alert"]
+    },
+    "de": {
+      "default": ["Glocke"],
+      "contextual": ["Alarm"]
+    }
+  },
+  "bell-disabled": {
+    "en": {
+      "default": ["Bell disabled"],
+      "contextual": ["Alert off"]
+    },
+    "de": {
+      "default": ["Alarmglocke inaktiv"],
+      "contextual": ["Alarm aus"]
+    }
+  },
+  "beverage": {
+    "en": {
+      "default": ["Beverages"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Getränke"],
+      "contextual": []
+    }
+  },
+  "bike": {
+    "en": {
+      "default": ["Bike"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fahrrad"],
+      "contextual": []
+    }
+  },
+  "bike-trailer": {
+    "en": {
+      "default": ["Bike Trailer"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Fahrradanhänger"],
+      "contextual": []
+    }
+  },
+  "bin": {
+    "en": {
+      "default": ["Bin"],
+      "contextual": ["delete"]
+    },
+    "de": {
+      "default": ["Papierkorb"],
+      "contextual": ["löschen"]
+    }
+  },
+  "block": {
+    "en": {
+      "default": ["Blocked"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Gesperrt"],
+      "contextual": [""]
+    }
+  },
+  "boat": {
+    "en": {
+      "default": ["Boat"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Boot"],
+      "contextual": []
+    }
+  },
+  "breakfast": {
+    "en": {
+      "default": ["Breakfast"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Frühstück"],
+      "contextual": []
+    }
+  },
+  "bug": {
+    "en": {
+      "default": ["Bug"],
+      "contextual": ["Error", "problem"]
+    },
+    "de": {
+      "default": ["Käfer"],
+      "contextual": ["Fehler", "Problem"]
+    }
+  },
+  "bus": {
+    "en": {
+      "default": ["Bus"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bus"],
+      "contextual": []
+    }
+  },
+  "calendar": {
+    "en": {
+      "default": ["Calendar"],
+      "contextual": ["Date", "Date and Time"]
+    },
+    "de": {
+      "default": ["Kalender"],
+      "contextual": ["Datum", "Datum und Uhrzeit"]
+    }
+  },
+  "camera": {
+    "en": {
+      "default": ["Photo camera", "camera"],
+      "contextual": ["Photo"]
+    },
+    "de": {
+      "default": ["Fotokamera", "Fotoapparat", "Kamera"],
+      "contextual": ["Foto"]
+    }
+  },
+  "car": {
+    "en": {
+      "default": ["Car"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Auto"],
+      "contextual": []
+    }
+  },
+  "cash": {
+    "en": {
+      "default": ["Cash payment"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bargeldzahlung"],
+      "contextual": []
+    }
+  },
+  "chat": {
+    "en": {
+      "default": ["Speech bubble with text"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Sprechblase mit Text"],
+      "contextual": []
+    }
+  },
+  "check": {
+    "en": {
+      "default": ["Check mark"],
+      "contextual": ["done"]
+    },
+    "de": {
+      "default": ["Haken"],
+      "contextual": ["erledigt"]
+    }
+  },
+  "check-circle": {
+    "en": {
+      "default": ["Check circle"],
+      "contextual": ["Success", "successful"]
+    },
+    "de": {
+      "default": ["Haken im Kreis"],
+      "contextual": ["Erfolg", "erfolgreich"]
+    }
+  },
+  "chevron-down": {
+    "en": {
+      "default": ["Chevron down"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Chevron Richtung unten"],
+      "contextual": []
+    }
+  },
+  "chevron-left": {
+    "en": {
+      "default": ["Chevron left"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Chevron Richtung links"],
+      "contextual": []
+    }
+  },
+  "chevron-right": {
+    "en": {
+      "default": ["Chevron right"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Chevron Richtung rechts"],
+      "contextual": []
+    }
+  },
+  "chevron-up": {
+    "en": {
+      "default": ["Chevron up"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Chevron Richtung oben"],
+      "contextual": []
+    }
+  },
+  "cigarette-disabled": {
+    "en": {
+      "default": ["No-Smoking"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Rauchen verboten"],
+      "contextual": []
+    }
+  },
+  "circular-arrows": {
+    "en": {
+      "default": ["Two circular arrows"],
+      "contextual": ["Refresh", "reload"]
+    },
+    "de": {
+      "default": ["Zwei Rundpfeile"],
+      "contextual": ["Aktualisieren"]
+    }
+  },
+  "clock": {
+    "en": {
+      "default": ["Clock"],
+      "contextual": ["Time"]
+    },
+    "de": {
+      "default": ["Uhr"],
+      "contextual": ["Uhrzeit"]
+    }
+  },
+  "clothes-hanger": {
+    "en": {
+      "default": ["Clothes hanger"],
+      "contextual": ["Wardrobe"]
+    },
+    "de": {
+      "default": ["Kleiderbügel"],
+      "contextual": ["Garderobe"]
+    }
+  },
+  "cloud": {
+    "en": {
+      "default": ["Cloud"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Wolke"],
+      "contextual": []
+    }
+  },
+  "cloud-download": {
+    "en": {
+      "default": ["Download from the cloud"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Aus der Cloud herunterladen"],
+      "contextual": []
+    }
+  },
+  "cloud-upload": {
+    "en": {
+      "default": ["Upload to the cloud"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["In die Cloud hochladen"],
+      "contextual": []
+    }
+  },
+  "compass": {
+    "en": {
+      "default": ["Compass"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Kompass"],
+      "contextual": []
+    }
+  },
+  "copy": {
+    "en": {
+      "default": ["Copy"],
+      "contextual": ["Copy"]
+    },
+    "de": {
+      "default": ["Kopie"],
+      "contextual": ["Kopieren"]
+    }
+  },
+  "credit-card": {
+    "en": {
+      "default": ["Credit card"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Kreditkarte"],
+      "contextual": []
+    }
+  },
+  "cross": {
+    "en": {
+      "default": ["Cross"],
+      "contextual": ["Cancel"]
+    },
+    "de": {
+      "default": ["Kreuz"],
+      "contextual": ["Abbrechen", "schließen"]
+    }
+  },
+  "cross-circle": {
+    "en": {
+      "default": ["Cross circle"],
+      "contextual": ["error"]
+    },
+    "de": {
+      "default": ["Kreuz im Kreis"],
+      "contextual": ["Fehler"]
+    }
+  },
+  "crown": {
+    "en": {
+      "default": ["Crown"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Krone"],
+      "contextual": []
+    }
+  },
+  "cup": {
+    "en": {
+      "default": ["Cup"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Tasse"],
+      "contextual": []
+    }
+  },
+  "database": {
+    "en": {
+      "default": ["Database"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Datenbank"],
+      "contextual": []
+    }
+  },
+  "db": {
+    "en": {
+      "default": ["DB", "Deutsche Bahn"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["DB", "Deutsche Bahn"],
+      "contextual": []
+    }
+  },
+  "discount": {
+    "en": {
+      "default": ["Discount"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Rabatt"],
+      "contextual": []
+    }
+  },
+  "document": {
+    "en": {
+      "default": ["Document"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Dokument"],
+      "contextual": []
+    }
+  },
+  "document-check": {
+    "en": {
+      "default": ["Document with check"],
+      "contextual": ["Document verified", "document selected"]
+    },
+    "de": {
+      "default": ["Dokument mit Haken"],
+      "contextual": ["Dokument geprüft", "Dokument ausgewählt"]
+    }
+  },
+  "dots-drag-and-drop": {
+    "en": {
+      "default": ["Drag and Drop"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Drag and Drop"],
+      "contextual": [""]
+    }
+  },
+  "download": {
+    "en": {
+      "default": ["Download"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Herunterladen"],
+      "contextual": [""]
+    }
+  },
+  "ear": {
+    "en": {
+      "default": ["Ear"],
+      "contextual": ["hearing Person"]
+    },
+    "de": {
+      "default": ["Ohr"],
+      "contextual": ["hörende Person"]
+    }
+  },
+  "ear-disabled": {
+    "en": {
+      "default": ["Deaf/hearing person"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Taube/höreingeschränkte Person"],
+      "contextual": []
+    }
+  },
+  "electric-car": {
+    "en": {
+      "default": ["Electric Car"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Elektroauto", "E-Auto"],
+      "contextual": []
+    }
+  },
+  "electric-scooter": {
+    "en": {
+      "default": ["Electric scooter"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["E-Scooter", "E-Roller"],
+      "contextual": []
+    }
+  },
+  "envelope": {
+    "en": {
+      "default": ["Envelope"],
+      "contextual": ["E-Mail", "mail", "contact"]
+    },
+    "de": {
+      "default": ["Briefumschlag"],
+      "contextual": ["E-Mail", "Post", "Kontakt"]
+    }
+  },
+  "exclamation-mark-circle": {
+    "en": {
+      "default": ["Exclamation mark circle"],
+      "contextual": ["important"]
+    },
+    "de": {
+      "default": ["Ausrufezeichen im Kreis"],
+      "contextual": ["wichtig"]
+    }
+  },
+  "exclamation-mark-triangle": {
+    "en": {
+      "default": ["Exclamation mark triangle"],
+      "contextual": ["warning"]
+    },
+    "de": {
+      "default": ["Ausrufezeichen im Dreieck"],
+      "contextual": ["Warnung"]
+    }
+  },
+  "eye": {
+    "en": {
+      "default": ["Eye"],
+      "contextual": ["show"]
+    },
+    "de": {
+      "default": ["Auge"],
+      "contextual": ["einblenden"]
+    }
+  },
+  "eye-disabled": {
+    "en": {
+      "default": ["Eye disabled"],
+      "contextual": ["hide"]
+    },
+    "de": {
+      "default": ["Auge durchgestrichen"],
+      "contextual": ["ausblenden"]
+    }
+  },
+  "face-delighted": {
+    "en": {
+      "default": ["Face delighted"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Erfreutes Gesicht"],
+      "contextual": []
+    }
+  },
+  "face-disappointed": {
+    "en": {
+      "default": ["Face disappointed"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Enttäuschtes Gesicht"],
+      "contextual": []
+    }
+  },
+  "face-neutral": {
+    "en": {
+      "default": ["Face neutral"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Neutrales Gesicht"],
+      "contextual": []
+    }
+  },
+  "face-sad": {
+    "en": {
+      "default": ["Face sad"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Trauriges Gesicht"],
+      "contextual": []
+    }
+  },
+  "face-smiling": {
+    "en": {
+      "default": ["Face smiling"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Lächelndes Gesicht"],
+      "contextual": []
+    }
+  },
+  "fast-backward": {
+    "en": {
+      "default": ["Fast backward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Schnell rückwärts"],
+      "contextual": []
+    }
+  },
+  "fast-backward-10": {
+    "en": {
+      "default": ["10 seconds backward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["10 Sekunden rückwärts springen"],
+      "contextual": []
+    }
+  },
+  "fast-backward-30": {
+    "en": {
+      "default": ["30 seconds backward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["30 Sekunden rückwärts springen"],
+      "contextual": []
+    }
+  },
+  "fast-backward-empty": {
+    "en": {
+      "default": ["10 seconds backward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["10 Sekunden rückwärts springen"],
+      "contextual": []
+    }
+  },
+  "fast-forward": {
+    "en": {
+      "default": ["Fast forward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Schnell vorwärts"],
+      "contextual": []
+    }
+  },
+  "fast-forward-10": {
+    "en": {
+      "default": ["10 seconds forward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["10 Sekunden vorwärts springen"],
+      "contextual": []
+    }
+  },
+  "fast-forward-30": {
+    "en": {
+      "default": ["30 seconds forward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["30 Sekunden vorwärts springen"],
+      "contextual": []
+    }
+  },
+  "fast-forward-empty": {
+    "en": {
+      "default": ["10 seconds forward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["10 Sekunden vorwärts springen"],
+      "contextual": []
+    }
+  },
+  "fax-machine": {
+    "en": {
+      "default": ["Fax machine"],
+      "contextual": ["Fax"]
+    },
+    "de": {
+      "default": ["Fax-Gerät"],
+      "contextual": ["Fax"]
+    }
+  },
+  "fingerprint": {
+    "en": {
+      "default": ["Fingerprint"],
+      "contextual": ["Touch ID"]
+    },
+    "de": {
+      "default": ["Fingerabdruck"],
+      "contextual": ["Touch ID"]
+    }
+  },
+  "folder": {
+    "en": {
+      "default": ["Folder"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ordner"],
+      "contextual": []
+    }
+  },
+  "folder-open": {
+    "en": {
+      "default": ["Folder open"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ordner offen"],
+      "contextual": []
+    }
+  },
+  "fullscreen": {
+    "en": {
+      "default": ["Fullscreen"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Vollbildmodus"],
+      "contextual": []
+    }
+  },
+  "fullscreen-exit": {
+    "en": {
+      "default": ["Exit fullscreen"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Vollbildmodus beenden"],
+      "contextual": []
+    }
+  },
+  "gear-wheel": {
+    "en": {
+      "default": ["Geer wheel"],
+      "contextual": ["Settings"]
+    },
+    "de": {
+      "default": ["Zahnrad"],
+      "contextual": ["Einstellungen"]
+    }
+  },
+  "generic-card": {
+    "en": {
+      "default": ["Card"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Generische Karte"],
+      "contextual": []
+    }
+  },
+  "gift": {
+    "en": {
+      "default": ["Gift"],
+      "contextual": ["Giftcard"]
+    },
+    "de": {
+      "default": ["Geschenk"],
+      "contextual": ["Geschenkgutschein"]
+    }
+  },
+  "globe": {
+    "en": {
+      "default": ["Globe"],
+      "contextual": ["Website"]
+    },
+    "de": {
+      "default": ["Weltkugel"],
+      "contextual": ["Webseite"]
+    }
+  },
+  "grid": {
+    "en": {
+      "default": ["Grid"],
+      "contextual": ["Grid view"]
+    },
+    "de": {
+      "default": ["Raster"],
+      "contextual": ["Raster-Ansicht"]
+    }
+  },
+  "hand-washing": {
+    "en": {
+      "default": ["Hand washing"],
+      "contextual": ["sink", "desinfection"]
+    },
+    "de": {
+      "default": ["Händewaschen"],
+      "contextual": ["Waschbecken", "Desinfektion"]
+    }
+  },
+  "handcart": {
+    "en": {
+      "default": ["Handcart"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bollerwagen"],
+      "contextual": []
+    }
+  },
+  "heart": {
+    "en": {
+      "default": ["Heart"],
+      "contextual": ["Love", "like", "favorite"]
+    },
+    "de": {
+      "default": ["Herz"],
+      "contextual": ["Liebe", "mögen", "Favorit"]
+    }
+  },
+  "house": {
+    "en": {
+      "default": ["House"],
+      "contextual": ["Home"]
+    },
+    "de": {
+      "default": ["Haus"],
+      "contextual": ["Startseite"]
+    }
+  },
+  "icon-placeholder": {},
+  "image": {
+    "en": {
+      "default": ["Image"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bild"],
+      "contextual": []
+    }
+  },
+  "information-circle": {
+    "en": {
+      "default": ["Information circle"],
+      "contextual": ["Info"]
+    },
+    "de": {
+      "default": ["Information im Kreis"],
+      "contextual": ["Info", "Auskunft"]
+    }
+  },
+  "key": {
+    "en": {
+      "default": ["Key"],
+      "contextual": ["Password key"]
+    },
+    "de": {
+      "default": ["Schlüssel"],
+      "contextual": ["Passwort-Schlüssel"]
+    }
+  },
+  "knife-and-fork": {
+    "en": {
+      "default": ["Cuttlery"],
+      "contextual": ["Restaurant"]
+    },
+    "de": {
+      "default": ["Besteck"],
+      "contextual": ["Restaurant"]
+    }
+  },
+  "leaf": {
+    "en": {
+      "default": ["Leaf"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Blatt"],
+      "contextual": [""]
+    }
+  },
+  "light-bulb": {
+    "en": {
+      "default": ["Light bulb"],
+      "contextual": ["Idea", "inspiration", "innovation", "learning"]
+    },
+    "de": {
+      "default": ["Glühbirne"],
+      "contextual": ["Idee", "Inspiration", "Innovation", "Lernen"]
+    }
+  },
+  "link-chain": {
+    "en": {
+      "default": ["Paper clip"],
+      "contextual": ["Attachment", "add attachment"]
+    },
+    "de": {
+      "default": ["Büroklammer"],
+      "contextual": ["Anhang", "Anhang hinzufügen"]
+    }
+  },
+  "list": {
+    "en": {
+      "default": ["List"],
+      "contextual": ["List view"]
+    },
+    "de": {
+      "default": ["Liste"],
+      "contextual": ["Listen-Ansicht"]
+    }
+  },
+  "location-arrow": {
+    "en": {
+      "default": ["Location arrow"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Standortpfeil"],
+      "contextual": [""]
+    }
+  },
+  "location-arrow-north": {
+    "en": {
+      "default": ["Location arrow north"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Standortpfeil nach Norden"],
+      "contextual": []
+    }
+  },
+  "location-crosshairs": {
+    "en": {
+      "default": ["Location crosshairs"],
+      "contextual": ["Current location"]
+    },
+    "de": {
+      "default": ["Standort Fadenkreuz"],
+      "contextual": ["Aktueller Standort"]
+    }
+  },
+  "location-pin": {
+    "en": {
+      "default": ["Location pin"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Standort Pinnadel"],
+      "contextual": []
+    }
+  },
+  "lock-closed": {
+    "en": {
+      "default": ["Lock closed"],
+      "contextual": ["lock"]
+    },
+    "de": {
+      "default": ["Schloss geschlossen"],
+      "contextual": ["sperren"]
+    }
+  },
+  "lock-open": {
+    "en": {
+      "default": ["Lock open"],
+      "contextual": ["unlock"]
+    },
+    "de": {
+      "default": ["Schloss offen"],
+      "contextual": ["entsperren"]
+    }
+  },
+  "log-in": {
+    "en": {
+      "default": ["Log in"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Einloggen"],
+      "contextual": []
+    }
+  },
+  "log-out": {
+    "en": {
+      "default": ["Log out"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ausloggen"],
+      "contextual": []
+    }
+  },
+  "magnifying-glass": {
+    "en": {
+      "default": ["Magnifying glass"],
+      "contextual": ["search"]
+    },
+    "de": {
+      "default": ["Lupe"],
+      "contextual": ["Suche", "suchen"]
+    }
+  },
+  "map": {
+    "en": {
+      "default": ["Map"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Karte"],
+      "contextual": []
+    }
+  },
+  "map-pin": {
+    "en": {
+      "default": ["Map pin"],
+      "contextual": ["Destination"]
+    },
+    "de": {
+      "default": ["Kartennadel"],
+      "contextual": ["Ziel"]
+    }
+  },
+  "market": {
+    "en": {
+      "default": ["Market"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Marktstand"],
+      "contextual": []
+    }
+  },
+  "mask": {
+    "en": {
+      "default": ["Face mask"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mundschutz"],
+      "contextual": []
+    }
+  },
+  "medical-cross": {
+    "en": {
+      "default": ["Medical cross"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Medizinisches Kreuz"],
+      "contextual": []
+    }
+  },
+  "menu": {
+    "en": {
+      "default": ["Burger menu"],
+      "contextual": ["menu"]
+    },
+    "de": {
+      "default": ["Burger-Menü"],
+      "contextual": ["Menü"]
+    }
+  },
+  "microphone": {
+    "en": {
+      "default": ["Microphone"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mikrofon"],
+      "contextual": []
+    }
+  },
+  "minus": {
+    "en": {
+      "default": ["Minus"],
+      "contextual": ["remove"]
+    },
+    "de": {
+      "default": ["Minus"],
+      "contextual": ["Entfernen"]
+    }
+  },
+  "mobile-phone": {
+    "en": {
+      "default": ["Mobile phone"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mobiltelefon", "Handy"],
+      "contextual": [""]
+    }
+  },
+  "mobile-phone-disabled": {
+    "en": {
+      "default": ["Mobile phone off"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mobiltelefon aus"],
+      "contextual": []
+    }
+  },
+  "moon": {
+    "en": {
+      "default": ["Moon"],
+      "contextual": ["Dark mode", "night"]
+    },
+    "de": {
+      "default": ["Mond"],
+      "contextual": ["Dark Mode", "Nacht"]
+    }
+  },
+  "more-horizontal": {
+    "en": {
+      "default": ["More"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mehr"],
+      "contextual": []
+    }
+  },
+  "more-vertical": {
+    "en": {
+      "default": ["More"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mehr"],
+      "contextual": []
+    }
+  },
+  "navigation-straight": {
+    "en": {
+      "default": ["Navigation straight"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Navigation geradeaus"],
+      "contextual": []
+    }
+  },
+  "navigation-to-left": {
+    "en": {
+      "default": ["Navigation to left"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Navigation nach links"],
+      "contextual": []
+    }
+  },
+  "navigation-to-right": {
+    "en": {
+      "default": ["Navigation to right"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Navigation nach rechts"],
+      "contextual": []
+    }
+  },
+  "navigation-u-turn": {
+    "en": {
+      "default": ["Navigation u-turn"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Navigation Kehrtwende"],
+      "contextual": []
+    }
+  },
+  "notebook": {
+    "en": {
+      "default": ["Note book"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Notizbuch"],
+      "contextual": []
+    }
+  },
+  "paper-clip": {
+    "en": {
+      "default": ["Paper clip"],
+      "contextual": ["Attachment", "add attachment"]
+    },
+    "de": {
+      "default": ["Büroklammer"],
+      "contextual": ["Anhang", "Anhang hinzufügen"]
+    }
+  },
+  "paper-plane": {
+    "en": {
+      "default": ["Paper plane"],
+      "contextual": ["Send message"]
+    },
+    "de": {
+      "default": ["Papierflugzeug"],
+      "contextual": ["Nachricht schicken"]
+    }
+  },
+  "paragraph-mark": {
+    "en": {
+      "default": ["Paragraph mark"],
+      "contextual": ["Legal", "Law"]
+    },
+    "de": {
+      "default": ["Paragrafzeichen"],
+      "contextual": ["Rechtliches", "Gesetz"]
+    }
+  },
+  "parking": {
+    "en": {
+      "default": ["Parking"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Parkplatz"],
+      "contextual": []
+    }
+  },
+  "pause": {
+    "en": {
+      "default": ["Pause"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Pausieren"],
+      "contextual": []
+    }
+  },
+  "pedestrian": {
+    "en": {
+      "default": ["Pedestrian"],
+      "contextual": ["walk"]
+    },
+    "de": {
+      "default": ["Fußgänger"],
+      "contextual": ["Fußweg"]
+    }
+  },
+  "pen": {
+    "en": {
+      "default": ["Pen"],
+      "contextual": ["Edit"]
+    },
+    "de": {
+      "default": ["Stift"],
+      "contextual": ["Bearbeiten"]
+    }
+  },
+  "person": {
+    "en": {
+      "default": ["Person"],
+      "contextual": ["User", "account", "profile"]
+    },
+    "de": {
+      "default": ["Person"],
+      "contextual": ["Benutzer", "Account", "Profil"]
+    }
+  },
+  "person-with-blind-cane": {
+    "en": {
+      "default": ["Blind/visually-impaired person"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Blinde/seheingeschränkte Person"],
+      "contextual": []
+    }
+  },
+  "person-with-rollator": {
+    "en": {
+      "default": ["Person with rollator walker"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Person mit Rollator"],
+      "contextual": []
+    }
+  },
+  "person-with-wheelchair": {
+    "en": {
+      "default": ["Person with wheelchair"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Person im Rollstuhl"],
+      "contextual": []
+    }
+  },
+  "persons": {
+    "en": {
+      "default": ["Persons"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mehrere Personen"],
+      "contextual": []
+    }
+  },
+  "pin": {
+    "en": {
+      "default": ["Pin"],
+      "contextual": ["Pin"]
+    },
+    "de": {
+      "default": ["Pinnadel"],
+      "contextual": ["Anpinnen"]
+    }
+  },
+  "play": {
+    "en": {
+      "default": ["Play"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Abspielen"],
+      "contextual": []
+    }
+  },
+  "plus": {
+    "en": {
+      "default": ["Plus"],
+      "contextual": ["Add"]
+    },
+    "de": {
+      "default": ["Plus"],
+      "contextual": ["Hinzufügen"]
+    }
+  },
+  "power-socket": {
+    "en": {
+      "default": ["Power socket"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Steckdose"],
+      "contextual": []
+    }
+  },
+  "printer": {
+    "en": {
+      "default": ["Printer"],
+      "contextual": ["Print"]
+    },
+    "de": {
+      "default": ["Drucker"],
+      "contextual": ["Drucken"]
+    }
+  },
+  "qr-code": {
+    "en": {
+      "default": ["QR code"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["QR-Code"],
+      "contextual": []
+    }
+  },
+  "qr-code-scan": {
+    "en": {
+      "default": ["QR code scan"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["QR-Code Scannen"],
+      "contextual": []
+    }
+  },
+  "question-mark-circle": {
+    "en": {
+      "default": ["Question mark circle"],
+      "contextual": ["Question", "help"]
+    },
+    "de": {
+      "default": ["Fragezeichen im Kreis"],
+      "contextual": ["Frage", "Hilfe"]
+    }
+  },
+  "resize": {
+    "en": {
+      "default": ["Resize"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Größe anpassen"],
+      "contextual": []
+    }
+  },
+  "resize-handle-corner": {
+    "en": {
+      "default": ["Resize Handle"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Griff für Größenänderung"],
+      "contextual": [""]
+    }
+  },
+  "restricted-mobility-toilet": {
+    "en": {
+      "default": ["Accessible toilet"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Barrierefreies WC"],
+      "contextual": []
+    }
+  },
+  "road-sign": {
+    "en": {
+      "default": ["Road sign"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Verkehrsschild"],
+      "contextual": []
+    }
+  },
+  "s-bahn": {
+    "en": {
+      "default": ["S-Bahn"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["S-Bahn"],
+      "contextual": []
+    }
+  },
+  "save": {
+    "en": {
+      "default": ["Disc"],
+      "contextual": ["Save"]
+    },
+    "de": {
+      "default": ["Diskette"],
+      "contextual": ["Speichern"]
+    }
+  },
+  "scooter": {
+    "en": {
+      "default": ["Scooter"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Roller"],
+      "contextual": []
+    }
+  },
+  "sepa": {
+    "en": {
+      "default": ["SEPA transfer"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["SEPA-Zahlung"],
+      "contextual": []
+    }
+  },
+  "share": {
+    "en": {
+      "default": ["Share"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Teilen"],
+      "contextual": []
+    }
+  },
+  "shield-check": {
+    "en": {
+      "default": ["Shield with check mark"],
+      "contextual": ["safe", "verified"]
+    },
+    "de": {
+      "default": ["Schild mit Haken"],
+      "contextual": ["sicher", "geprüft"]
+    }
+  },
+  "ship": {
+    "en": {
+      "default": ["Ship"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Schiff"],
+      "contextual": []
+    }
+  },
+  "shopping-bag": {
+    "en": {
+      "default": ["Shopping bag"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Einkaufstasche"],
+      "contextual": []
+    }
+  },
+  "shopping-basket": {
+    "en": {
+      "default": ["Shopping basket"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Warenkorb"],
+      "contextual": []
+    }
+  },
+  "shopping-basket-disabled": {
+    "en": {
+      "default": ["Shopping basket disabled"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Warenkorb nicht verfügbar"],
+      "contextual": []
+    }
+  },
+  "shopping-cart": {
+    "en": {
+      "default": ["Shopping cart"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Einkaufswagen"],
+      "contextual": []
+    }
+  },
+  "shopping-cart-disabled": {
+    "en": {
+      "default": ["Shopping cart not available"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Einkaufswagen nicht verfügbar"],
+      "contextual": []
+    }
+  },
+  "shower": {
+    "en": {
+      "default": ["Shower"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Dusche"],
+      "contextual": []
+    }
+  },
+  "shower-men": {
+    "en": {
+      "default": ["Men shower"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Herren-Dusche"],
+      "contextual": []
+    }
+  },
+  "shower-women": {
+    "en": {
+      "default": ["Women shower"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Damen-Dusche"],
+      "contextual": []
+    }
+  },
+  "skip-backward": {
+    "en": {
+      "default": ["Skip backward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Rückwärts springen"],
+      "contextual": []
+    }
+  },
+  "skip-forward": {
+    "en": {
+      "default": ["Skip forward"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Vorwärts springen"],
+      "contextual": []
+    }
+  },
+  "sliders-horizontal": {
+    "en": {
+      "default": ["Sliders"],
+      "contextual": ["Settings", "filter"]
+    },
+    "de": {
+      "default": ["Schieberegler"],
+      "contextual": ["Einstellungen", "Filter"]
+    }
+  },
+  "snow-flake": {
+    "en": {
+      "default": ["Snow flake"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Schneeflocke"],
+      "contextual": []
+    }
+  },
+  "sort-down": {
+    "en": {
+      "default": ["Sort down"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Absteigend sotieren"],
+      "contextual": []
+    }
+  },
+  "sort-up": {
+    "en": {
+      "default": ["Sort up"],
+      "contextual": []
+    }
+  },
+  "speech-bubble": {
+    "en": {
+      "default": ["Speech bubble"],
+      "contextual": ["Message"]
+    },
+    "de": {
+      "default": ["Sprechblase"],
+      "contextual": ["Nachricht"]
+    }
+  },
+  "speech-bubble-exclamation-mark": {
+    "en": {
+      "default": ["Speech bubble with exclamation mark"],
+      "contextual": ["Important message"]
+    },
+    "de": {
+      "default": ["Sprechblase mit Ausrufezeichen"],
+      "contextual": ["Wichtige Nachricht"]
+    }
+  },
+  "speech-bubble-question-mark": {
+    "en": {
+      "default": ["Speech bubble with question mark"],
+      "contextual": ["Request"]
+    },
+    "de": {
+      "default": ["Sprechblase mit Fragezeichen"],
+      "contextual": ["Anfrage"]
+    }
+  },
+  "speech-bubbles": {
+    "en": {
+      "default": ["Speech bubbles"],
+      "contextual": ["Chat conversation"]
+    },
+    "de": {
+      "default": ["Sprechblasen"],
+      "contextual": ["Chat-Unterhaltung"]
+    }
+  },
+  "speedometer": {
+    "en": {
+      "default": ["Speedometer"],
+      "contextual": ["Performance", "speed", "dashboard"]
+    },
+    "de": {
+      "default": [""],
+      "contextual": ["Leistung", "Geschwindigkeit", "Dashboard"]
+    }
+  },
+  "star": {
+    "en": {
+      "default": ["Star"],
+      "contextual": ["Favorite"]
+    },
+    "de": {
+      "default": ["Stern"],
+      "contextual": ["Favorit"]
+    }
+  },
+  "station": {
+    "en": {
+      "default": ["Station"],
+      "contextual": ["Bus station"]
+    },
+    "de": {
+      "default": ["Haltestelle"],
+      "contextual": ["Busshaltestelle"]
+    }
+  },
+  "stop": {
+    "en": {
+      "default": ["Stop"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Stoppen"],
+      "contextual": []
+    }
+  },
+  "stroller": {
+    "en": {
+      "default": ["Stroller"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Kinderwagen"],
+      "contextual": []
+    }
+  },
+  "subtitles": {
+    "en": {
+      "default": ["Subtitles"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Untertitel"],
+      "contextual": []
+    }
+  },
+  "subway": {
+    "en": {
+      "default": ["Subway"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["U-Bahn"],
+      "contextual": []
+    }
+  },
+  "sun": {
+    "en": {
+      "default": ["Sun"],
+      "contextual": ["Light mode", "brightness", "day"]
+    },
+    "de": {
+      "default": ["Sonne"],
+      "contextual": ["Light Mode", "Helligkeit", "Tag"]
+    }
+  },
+  "support-dog": {
+    "en": {
+      "default": ["Support dog"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Assistenzhund"],
+      "contextual": []
+    }
+  },
+  "taxi": {
+    "en": {
+      "default": ["Taxi"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Taxi"],
+      "contextual": []
+    }
+  },
+  "telephone": {
+    "en": {
+      "default": ["Telephone"],
+      "contextual": ["Phonecall"]
+    },
+    "de": {
+      "default": ["Telefon"],
+      "contextual": ["Anruf", "Telefonnummer"]
+    }
+  },
+  "thumbs-down": {
+    "en": {
+      "default": ["Thumbs down"],
+      "contextual": ["Dislike"]
+    },
+    "de": {
+      "default": ["Daumen runter"],
+      "contextual": ["Dislike", "Ablehnung"]
+    }
+  },
+  "thumbs-up": {
+    "en": {
+      "default": ["Thumbs up"],
+      "contextual": ["Like"]
+    },
+    "de": {
+      "default": ["Daumen hoch"],
+      "contextual": ["Like", "gefallen"]
+    }
+  },
+  "ticket": {
+    "en": {
+      "default": ["Ticket"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ticket"],
+      "contextual": []
+    }
+  },
+  "tickets": {
+    "en": {
+      "default": ["Multiple tickets"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Mehrere Tickets"],
+      "contextual": []
+    }
+  },
+  "toilet-men": {
+    "en": {
+      "default": ["Men toilet"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Herren-Toilette"],
+      "contextual": []
+    }
+  },
+  "toilet-women": {
+    "en": {
+      "default": ["Ladies toilet"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Damen-Toilette"],
+      "contextual": []
+    }
+  },
+  "toilets": {
+    "en": {
+      "default": ["Toilets"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Toiletten"],
+      "contextual": []
+    }
+  },
+  "toys": {
+    "en": {
+      "default": ["Toys"],
+      "contextual": ["Playground"]
+    },
+    "de": {
+      "default": ["Spielzeug"],
+      "contextual": ["Spielplatz"]
+    }
+  },
+  "train": {
+    "en": {
+      "default": ["Train"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Train"],
+      "contextual": []
+    }
+  },
+  "train-and-car": {
+    "en": {
+      "default": ["Train and car"],
+      "contextual": []
+    }
+  },
+  "train-station": {
+    "en": {
+      "default": ["Train station"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Bahnhof"],
+      "contextual": []
+    }
+  },
+  "translation": {
+    "en": {
+      "default": ["Translation"],
+      "contextual": [""]
+    },
+    "de": {
+      "default": ["Übersetzung"],
+      "contextual": [""]
+    }
+  },
+  "undo": {
+    "en": {
+      "default": ["Undo"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Rückgängig"],
+      "contextual": []
+    }
+  },
+  "upload": {
+    "en": {
+      "default": ["Upload"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Hochladen"],
+      "contextual": []
+    }
+  },
+  "volume-disabled": {
+    "en": {
+      "default": ["Volume off"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ton aus"],
+      "contextual": []
+    }
+  },
+  "volume-down": {
+    "en": {
+      "default": ["Volume down"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ton leiser"],
+      "contextual": []
+    }
+  },
+  "volume-silent": {
+    "en": {
+      "default": ["Silent"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Ton aus"],
+      "contextual": []
+    }
+  },
+  "volume-up": {
+    "en": {
+      "default": ["Volume up"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["lauter"],
+      "contextual": []
+    }
+  },
+  "voucher": {
+    "en": {
+      "default": ["Voucher"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Gutschein"],
+      "contextual": []
+    }
+  },
+  "water-drop": {
+    "en": {
+      "default": ["Water drop"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Wassertropfen"],
+      "contextual": []
+    }
+  },
+  "wc-sign": {
+    "en": {
+      "default": ["WC"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["WC"],
+      "contextual": []
+    }
+  },
+  "wifi": {
+    "en": {
+      "default": ["Wi-Fi"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["WLAN"],
+      "contextual": []
+    }
+  },
+  "wifi-disabled": {
+    "en": {
+      "default": ["Wi-Fi not available"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["WLAN nicht verfügbar"],
+      "contextual": []
+    }
+  },
+  "wrench": {
+    "en": {
+      "default": ["Wrench"],
+      "contextual": ["Maintenance", "repair", "tools"]
+    },
+    "de": {
+      "default": ["Schraubenschlüssel"],
+      "contextual": ["Wartung", "Reparatur", "Werkzeug"]
+    }
+  },
+  "zoom-in": {
+    "en": {
+      "default": ["Zoom in"],
+      "contextual": []
+    },
+    "de": {
+      "default": ["Hineinzoomen"],
+      "contextual": []
+    }
+  },
+  "zoom-out": {
+    "en": {
+      "default": ["Zoom out"],
+      "contextual": []
+    }
+  }
+}
