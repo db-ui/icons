@@ -1,5 +1,11 @@
 # @db-ux/core-icons
 
+## 0.0.6
+
+### Patch Changes
+
+- b1c9f3e: Publish to GitHub tags as well
+
 ## 0.0.5
 
 ### Patch Changes
