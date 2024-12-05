@@ -8,7 +8,7 @@
   "scripts": {
     "build": "pnpm -r run build",
     "changeset": "changeset",
-    "ci:publish": "pnpm publish --recursive --no-git-checks",
+    "ci:publish": "changeset tag && pnpm publish --recursive --no-git-checks",
     "ci:version": "changeset version",
     "preinstall": "npx only-allow pnpm",
     "scripts:download-figma-descriptions": "tsx packages/scripts/download-figma-descriptions.ts"
