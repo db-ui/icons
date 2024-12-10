@@ -24,7 +24,7 @@
   "devDependencies": {
     "@figma/rest-api-spec": "0.22.0",
     "@changesets/cli": "^2.27.9",
-    "@db-ui/gif": "^0.0.11",
+    "@db-ui/gif": "0.0.12",
     "@types/node": "^22.10.0",
     "npm-run-all2": "^7.0.1",
     "dotenv": "^16.4.7",

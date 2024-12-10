@@ -12,8 +12,8 @@ importers:
         specifier: ^2.27.9
         version: 2.27.10
       '@db-ui/gif':
-        specifier: ^0.0.11
-        version: 0.0.11(encoding@0.1.13)
+        specifier: 0.0.12
+        version: 0.0.12(encoding@0.1.13)
       '@figma/rest-api-spec':
         specifier: 0.22.0
         version: 0.22.0
@@ -117,8 +117,8 @@ packages:
   '@changesets/write@0.3.2':
     resolution: {integrity: sha512-kDxDrPNpUgsjDbWBvUo27PzKX4gqeKOlhibaOXDJA6kuBisGqNHv/HwGJrAu8U/dSf8ZEFIeHIPtvSlZI1kULw==}
 
-  '@db-ui/gif@0.0.11':
-    resolution: {integrity: sha512-mCNx9+SrzaMpUwhdwAJA12JLd5Is1TUCNLX8BVbAKroovjuxZr9cBBPk4rTDuNvPqaSlr8a+yUP4f5ecRusHpw==}
+  '@db-ui/gif@0.0.12':
+    resolution: {integrity: sha512-F/jXLW8bfEYrFdJ57RU3Z9FxtNAZZg219vL670URATNa6RPshTOSE9HJMQUoPX8zxqPN5CLmyvW4kMwejz6vBw==}
     hasBin: true
 
   '@esbuild/aix-ppc64@0.23.1':
@@ -2090,7 +2090,7 @@ snapshots:
       human-id: 1.0.2
       prettier: 2.8.8
 
-  '@db-ui/gif@0.0.11(encoding@0.1.13)':
+  '@db-ui/gif@0.0.12(encoding@0.1.13)':
     dependencies:
       commander: 12.1.0
       fs-extra: 11.2.0
