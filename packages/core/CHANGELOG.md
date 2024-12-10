@@ -1,5 +1,11 @@
 # @db-ux/core-icons
 
+## 0.0.7
+
+### Patch Changes
+
+- b2f9744: Fix issue with fallback for "filled" icons. The fallback will be the "outlined" icon instead of the x_placeholder
+
 ## 0.0.6
 
 ### Patch Changes
